@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.ultra-regular {
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.sour-gummy- {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+header{
+    background-color: black;
+    margin: -50px -8px 0px -8px;
+    padding-bottom: 85px;
+    text-align: center;
+}
+
+header > h1{
+    font-size: 70px;
+    padding-top: 70px;
+    margin-bottom: -8px;
+    color: white;
+    font-family: "Ultra", serif;
+}
+
+header > p{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div#fotogirassol{
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    font-size: 50px;
+    color: white;
+    margin-left: -9px;
+    margin-right: -8px;
+    max-height: 1200px;
+    padding-top: 49px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    font-family: "Sour Gummy", serif;
+
+
+}
+div#fotogirassol > p{
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 575px;
+}
+
+div.branco > p {
+    color: rgb(3, 3, 3);
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: "Sour Gummy", serif;
+}
+
+div.branco{
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    
+}
+
+div#fotolivro{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    color: white;
+    font-size: 40px;
+    margin-left: -9px;
+    margin-right: -8px;
+    max-height: 1900px;
+    padding-top: 49px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    font-family: "Sour Gummy", serif;
+
+}
+
+div#fotolivro > p{
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 575px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 1px;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: -7px;
+}
