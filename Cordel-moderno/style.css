@@ -2,39 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
-.ultra-regular {
-    font-family: "Ultra", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
-.sour-gummy- {
-    font-family: "Sour Gummy", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte01: Verdana, Geneva, Tahona, sans-serif;
+    --fonte02: "Passion One", cursive;
+    --fonte03: "Sriracha", cursive;
+}
 
 header{
     background-color: black;
-    margin: -50px -8px 0px -8px;
+    margin: -92px -8px 0px -8px;
     padding-bottom: 85px;
     text-align: center;
 }
 
 header > h1{
-    font-size: 70px;
+    font-size: 7vw;
     padding-top: 70px;
     margin-bottom: -8px;
     color: white;
-    font-family: "Ultra", serif;
+    font-family: var(--fonte02);
 }
 
 header > p{
-    font-size: 20px;
+    font-size: 2vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -53,7 +48,7 @@ div#fotogirassol{
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
     background-position: center;
-    font-size: 50px;
+    font-size: 3vw;
     color: white;
     margin-left: -9px;
     margin-right: -8px;
@@ -61,7 +56,7 @@ div#fotogirassol{
     padding-top: 49px;
     padding-bottom: 40px;
     padding-left: 20px;
-    font-family: "Sour Gummy", serif;
+    font-family: var(--fonte03);
 
 
 }
@@ -74,9 +69,9 @@ div#fotogirassol > p{
 
 div.branco > p {
     color: rgb(3, 3, 3);
-    font-size: 40px;
+    font-size: 3vw;
     margin-top: 10px;
-    font-family: "Sour Gummy", serif;
+    font-family: var(--fonte03);
 }
 
 div.branco{
@@ -92,14 +87,14 @@ div#fotolivro{
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
     color: white;
-    font-size: 40px;
+    font-size: 3vw;
     margin-left: -9px;
     margin-right: -8px;
     max-height: 1900px;
     padding-top: 49px;
     padding-left: 20px;
     padding-bottom: 60px;
-    font-family: "Sour Gummy", serif;
+    font-family: var(--fonte03);
 
 }
 
